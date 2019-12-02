@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.character{
+  border: 1px solid  rgb(11, 85, 66);
+  padding: 10px;
+  font-size: 10px;
+  color: rgb(17, 112, 112);
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: 1fr;
+  justify-content: center;
+  text-align: center;
+  gap: 13px;
+}
+
+.favName h4{
+  color: grey;
+}
+
+.favName ul{
+  color: darkgray;
+  margin-left: 50px;
+}
